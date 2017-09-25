@@ -9,7 +9,7 @@ protected void service(HttpServletRequest req,HttpServletResponse res)throws Ser
 	String pwd=req.getParameter("password");
 	String msg="";
 	if(unm.equals(pwd)){
-		msg="<h1>Login Success<br/>Welcome to JLC Home page of india";
+		msg="<h1>Login Success<br/>Welcome to JLC Home page of india from 1978 account i committed";
 	}else{
 		msg="<h1>Login Failed<br/>Invalid Username or Password of this page";
 	}
